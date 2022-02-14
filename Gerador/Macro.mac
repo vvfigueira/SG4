@@ -1,0 +1,116 @@
+/control/verbose 0
+/run/verbose 1
+/run/initialize
+
+/gun/particle gamma
+/gun/position 0 0.05 0 m
+/gun/direction 1 0 0
+/gun/energy 200 eV
+
+/Detector/DefGasTemp 300 K
+/Detector/DefCampoInt 12500 V
+
+/Detector/DefGasPressao 0 Pa
+/run/reinitializeGeometry
+/run/beamOn 1000000
+
+/Detector/DefGasPressao 66.661 Pa
+/run/reinitializeGeometry
+/run/beamOn 1000000
+
+/Detector/DefGasPressao 133.322 Pa
+/run/reinitializeGeometry
+/run/beamOn 1000000
+
+/Detector/DefGasPressao 199.983 Pa
+/run/reinitializeGeometry
+/run/beamOn 1000000
+
+/Detector/DefGasPressao 266.644 Pa
+/run/reinitializeGeometry
+/run/beamOn 1000000
+
+/Detector/DefGasPressao 333.305 Pa
+/run/reinitializeGeometry
+/run/beamOn 1000000
+
+/Detector/DefGasPressao 399.966 Pa
+/run/reinitializeGeometry
+/run/beamOn 1000000
+
+/Detector/DefGasPressao 466.627 Pa
+/run/reinitializeGeometry
+/run/beamOn 1000000
+
+/Detector/DefGasPressao 533.288 Pa
+/run/reinitializeGeometry
+/run/beamOn 1000000
+
+/Detector/DefGasPressao 599.949 Pa
+/run/reinitializeGeometry
+/run/beamOn 1000000
+
+/Detector/DefGasPressao 666.61 Pa
+/run/reinitializeGeometry
+/run/beamOn 1000000
+
+/Detector/DefGasPressao 733.271 Pa
+/run/reinitializeGeometry
+/run/beamOn 1000000
+
+/Detector/DefGasPressao 799.932 Pa
+/run/reinitializeGeometry
+/run/beamOn 1000000
+
+/Detector/DefGasPressao 866.593 Pa
+/run/reinitializeGeometry
+/run/beamOn 1000000
+
+/Detector/DefGasPressao 933.254 Pa
+/run/reinitializeGeometry
+/run/beamOn 1000000
+
+/Detector/DefGasPressao 999.915 Pa
+/run/reinitializeGeometry
+/run/beamOn 1000000
+
+/Detector/DefGasPressao 1066.58 Pa
+/run/reinitializeGeometry
+/run/beamOn 1000000
+
+/Detector/DefGasPressao 1133.24 Pa
+/run/reinitializeGeometry
+/run/beamOn 1000000
+
+/Detector/DefGasPressao 1199.9 Pa
+/run/reinitializeGeometry
+/run/beamOn 1000000
+
+/Detector/DefGasPressao 1266.56 Pa
+/run/reinitializeGeometry
+/run/beamOn 1000000
+
+/Detector/DefGasPressao 1333.22 Pa
+/run/reinitializeGeometry
+/run/beamOn 1000000
+
+/Detector/DefGasPressao 1399.88 Pa
+/run/reinitializeGeometry
+/run/beamOn 1000000
+
+/Detector/DefGasPressao 1466.54 Pa
+/run/reinitializeGeometry
+/run/beamOn 1000000
+
+/Detector/DefGasPressao 1533.2 Pa
+/run/reinitializeGeometry
+/run/beamOn 1000000
+
+/Detector/DefGasPressao 1599.86 Pa
+/run/reinitializeGeometry
+/run/beamOn 1000000
+
+/Detector/DefGasPressao 1666.53 Pa
+/run/reinitializeGeometry
+/run/beamOn 1000000
+
