@@ -1,3 +1,5 @@
+### Arquivo de configuração para a utilização do Geant4 com janela gráfica
+
 # Níveis de verbosidade
 
 /control/verbose 2
