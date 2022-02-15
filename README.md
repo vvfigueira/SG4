@@ -15,4 +15,4 @@
 E = cnst*/r
 ```
   Com a constante sendo 12500 Volts.
-  É possível alterar os valores de pressão, temperatura e constante de campo via comandos no arquivo de macro, como consta no exemplo `run.mac`. Atualmente, os arquivos de saída do programa são apenas da energia dos elétrons capturados pelo ânodo.
+  É possível alterar os valores de pressão, temperatura e constante de campo via comandos no arquivo de macro, como consta no exemplo `run.mac`. Atualmente, os arquivos de saída do programa são apenas da energia dos elétrons capturados pelo ânodo, esses arquivos são nomeados com a situação da tomada de dados; exemplo, a simulação é inicializada com 3 runs, a primeira na situação de 1 torr, 300 K, 10 kV, a segunda na situação de 1 torr, 250 K, 5 kV e a última como 0.5 torr, 300 K, 5kV. Serão criados os arquivos `1torr.txt`, `0.5torr.txt`, `300K.txt`, `250K.txt`, `10kV.txt`, `5kV.txt` e `Histo2D.txt`; cada um destes contém os valores de energias obtidos para todas as runs na qual o parâmetro da simulação utilizado foi o nome do arquivo, já o arquivo `Histo2D.txt` contém dados de energia e suas pressões correspondentes para confeccionar um histograma 2D.
