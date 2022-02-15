@@ -12,7 +12,6 @@ GeradorPrimarias::GeradorPrimarias()
     : G4VUserPrimaryGeneratorAction(), 
     mParticleGun( new G4ParticleGun( G4Geantino::Definition() ) ){
         G4ThreeVector pos = G4ThreeVector(0*m, 0.05*m, 0*m);
-        //mParticleGun->SetParticleEnergy(200*eV);
         mParticleGun->SetParticlePosition(pos);
 
 }
