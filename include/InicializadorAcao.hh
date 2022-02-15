@@ -1,6 +1,8 @@
 #ifndef InicializadorAcao_h
 #define InicializadorAcao_h 1
 
+// Includes do Geant4
+
 #include "G4VUserActionInitialization.hh"
 
 class InicializadorAcao : public G4VUserActionInitialization

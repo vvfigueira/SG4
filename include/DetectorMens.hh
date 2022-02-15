@@ -1,7 +1,11 @@
 #ifndef DetectorMens_h
 #define DetectorMens_h 1
 
+// Includes da Simulação
+
 #include "Detector.hh"
+
+// Includes do Geant4
 
 #include "G4SystemOfUnits.hh"
 #include "G4UImessenger.hh"

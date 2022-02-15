@@ -1,9 +1,12 @@
+// Includes da Simulação
+
 #include "GeradorPrimarias.hh"
+
+// Includes do Geant4
 
 #include "G4ParticleGun.hh"
 #include "G4SystemOfUnits.hh"
 #include "G4Geantino.hh"
-#include "G4Electron.hh"
 
 GeradorPrimarias::GeradorPrimarias()
     : G4VUserPrimaryGeneratorAction(), 

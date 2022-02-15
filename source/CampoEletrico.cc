@@ -1,7 +1,14 @@
+// Includes do C++
+
+#include "math.h"
+
+// Includes da Simulação
+
 #include "CampoEletrico.hh"
 
+// Includes do Geant4
+
 #include "CLHEP/Units/SystemOfUnits.h"
-#include "math.h"
 #include "globals.hh"
 
 using namespace CLHEP;

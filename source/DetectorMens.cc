@@ -1,5 +1,9 @@
+// Includes da Simulação
+
 #include "DetectorMens.hh"
 #include "Detector.hh"
+
+// Includes do Geant4
 
 #include "G4UIdirectory.hh"
 #include "G4SystemOfUnits.hh"

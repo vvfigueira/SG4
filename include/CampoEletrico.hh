@@ -1,6 +1,8 @@
 #ifndef CampoEletrico_h
 #define CampoEletrico_h 1
 
+// Includes do Geant4
+
 #include "G4ElectroMagneticField.hh"
 #include "G4UnitsTable.hh"
 

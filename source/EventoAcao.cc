@@ -1,5 +1,9 @@
+// Includes da Simulação
+
 #include "EventoAcao.hh"
 #include "Analise.hh"
+
+// Includes do Geant4
 
 #include "G4Event.hh"
 
