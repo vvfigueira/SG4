@@ -9,7 +9,6 @@
 
 #include "G4VUserDetectorConstruction.hh"
 #include "globals.hh"
-#include "G4SystemOfUnits.hh"
 #include "G4UnitsTable.hh"
 
 static constexpr double torr = atmosphere/760.;
