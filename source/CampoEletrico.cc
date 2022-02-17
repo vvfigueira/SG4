@@ -8,7 +8,7 @@
 
 // Includes do Geant4
 
-#include "CLHEP/Units/SystemOfUnits.h"
+#include "G4SystemOfUnits.hh"
 #include "globals.hh"
 
 using namespace CLHEP;

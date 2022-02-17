@@ -14,7 +14,6 @@
 // Includes do Geant4
 
 #include "G4VProcess.hh"
-#include "G4SystemOfUnits.hh"
 #include "G4UnitsTable.hh"
 #include "G4ios.hh"
 #include "G4Track.hh"
@@ -40,12 +39,12 @@ G4bool DetectorSensivel::ProcessHits(G4Step*aStep, G4TouchableHistory*ROhist){
     gas = "Gás Ativo";
     
     std::stringstream valorpress;
-    valorpress << pressao/CLHEP::torr;
+    valorpress << pressao/torr;
     std::string presscorrig;
     valorpress >> presscorrig;
 
     std::stringstream valorint;
-    valorint << campoInt/CLHEP::volt;
+    valorint << campoInt/volt;
     std::string intcorrig;
     valorint >> intcorrig;
     
@@ -58,7 +57,7 @@ G4bool DetectorSensivel::ProcessHits(G4Step*aStep, G4TouchableHistory*ROhist){
         bFile << energia/CLHEP::eV << "\n";
         dFile << energia/CLHEP::eV << "\n";
         cFile << energia/CLHEP::eV << "\t"
-        << pressao/CLHEP::torr << "\n";
+        << pressao/torr << "\n";
         //analiseManager->FillH1(0, energia);
         aStep->GetPreStepPoint()->SetKineticEnergy(0*CLHEP::eV);
     };

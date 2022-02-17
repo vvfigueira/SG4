@@ -19,10 +19,6 @@
 #include "G4Material.hh"
 #include "G4MultiUnion.hh"
 
-// Include de Unidades
-
-#include "CLHEP/Units/SystemOfUnits.h"
-
 // Includes do Campo
 
 #include "G4FieldManager.hh"
